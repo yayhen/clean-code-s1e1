@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: lato, sans-serif;
 }
-.aaa {
+.matrix-image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix-image img {
   width: 100%;
 }
-.aaa .more_inf {
+.matrix-image .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { text-align: center;
+  .matrix-image { text-align: center;
   }
 }
-.centered-main-page-element {
+.main-page-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -143,11 +143,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display:none;
 }
